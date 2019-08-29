@@ -1,0 +1,5 @@
+name: JoinInvisible
+author: Strahan
+main: com.sylvcraft.JoinInvisible
+version: 1.0
+description: Hides you from Dynmap on your first join
