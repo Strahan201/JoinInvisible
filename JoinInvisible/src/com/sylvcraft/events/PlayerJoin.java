@@ -17,7 +17,7 @@ public class PlayerJoin implements Listener {
 
 	@EventHandler
   public void onPlayerJoin(PlayerJoinEvent e) {
-		if (e.getPlayer().hasPlayedBefore()) return;
+		if (plugin.getConfig().getBoolean("config.only-first-join") && e.getPlayer().hasPlayedBefore()) return;
 
 		DynmapAPI dynmap = (DynmapAPI) Bukkit.getServer().getPluginManager().getPlugin("dynmap");
 		if (dynmap == null) return;

@@ -1,0 +1,8 @@
+messages:
+  access-denied: '&cAccess denied!'
+  pass-player: 'Pass me the player to force visible.'
+  invalid-player: '&cThat is not a valid player!'
+  visible-self: '&6You are now visible on Dynmap'
+  visible-other: '&e%player% &6is now visible on Dynmap'
+config:
+  only-first-join: false
